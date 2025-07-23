@@ -1,0 +1,121 @@
+*/ {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #84cc16,
+    #bef264
+  ); /* optional background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #bef264;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.h1 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8c3tJ93LXGQn69T21-MRPJZQlL9RIEPJjGyl4n42fh8x1renLpKDv047p-9AT1JCu6fs&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+
+  border-radius: 8px;
+
+  background-color: rgba(0, 0, 0, 0.6); /* optional dark overlay */
+}
+
+/* .h1 h1 {
+  font-size: 20px;
+  line-height: 1.4;
+  z-index: 2;
+} */
+
+.start-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-game button {
+  width: 120px;
+  height: 50px;
+  background-color: #22c55e;
+  color: #fafaf9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.start-game button:hover {
+  background-color: #fecaca;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.options li {
+  list-style-type: none;
+}
+
+.options button {
+  width: 120px;
+  height: 50px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #22c55e;
+  color: #fafaf9;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.options button:hover {
+  background-color: #bef264;
+}
+
+.your-choices {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #facc15; /* Yellow-ish color, you can change it */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
